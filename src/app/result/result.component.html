@@ -1,0 +1,52 @@
+<app-navbar></app-navbar>
+
+
+<!-- <div class="row" >
+  <div class="col s8 offset-s2">
+
+    <div class="card blue-grey darken-1">
+
+      <div class="card-action">
+        <ul class="collection answer" >
+            <li *ngFor="let hero of question">
+             <span class="badge">{{hero.id}}</span> {{hero.question}}
+            </li>
+              
+        </ul>
+
+      </div>
+    </div>
+
+  </div>
+</div> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Your Result</h2>
+  <ul class="list-group">
+    <!-- <li class="list-group-item">New <span class="badge">12</span></li> -->
+
+                <li *ngFor="let hero of question">
+                    
+                    <b>{{hero.id}} . {{hero.question}}  </b>  
+                     
+                    <div style="margin-right: 30px; color: blueviolet;" *ngFor="let x of hero.option">
+                        {{x.optionid}}.  {{x.name}}  ( {{x.isTrue}}  )
+                    </div>
+                 </li>
+  </ul>
+</div>
+
+</body>
+</html>

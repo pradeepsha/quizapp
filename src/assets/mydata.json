@@ -1,0 +1,122 @@
+{
+    "questions":[
+    {
+      "id":1,
+      "question":"What is the full form of IP?",
+      "option":[
+        {"questionid":1,"name":"Internet program","isTrue":true ,"optionid":1},
+        {"questionid":1,"name":"Internet protocol","isTrue":false,"optionid":2},
+        {"questionid":1,"name":"Interface program","isTrue":false,"optionid":3},
+        {"questionid":1,"name":"Interface protocol","isTrue":false,"optionid":4}
+      ],
+      "answerid":1,
+      "isAnswer":false
+    },
+    {
+      "id":2,
+      "question":"Which of the following is not a core AngularJS directive ?",
+      "option":[
+        {"optionid":1,"questionid":2,"name":"ng-app","isTrue":false},
+        {"optionid":2,"questionid":2,"name":"ng-model","isTrue":false},
+        {"optionid":3,"questionid":2,"name":"ng-bind","isTrue":false},
+        {"optionid":4,"questionid":2,"name":"ng-state","isTrue":true}
+      ],
+      "answerid":4,
+      "isAnswer":false
+    },
+    {
+      "id":3,
+      "question":"AngularJS application expressions are pure JavaScript expressions.",
+      "option":[
+        { "optionid":1,"questionid":3,"name":"true","isTrue":true},
+        {"optionid":2,"questionid":3,"name":"false","isTrue":false}
+      ],
+      "answerid":1,
+      "isAnswer":false
+    },
+    {
+      "id":4,
+      "question":"Which of the following is true about orderby filter ?",
+      "option":[
+        {"optionid":1,"questionid":4,"name":"orderby filter orders the array based on provided criteria.","isTrue":true},
+        {"optionid":2,"questionid":4,"name":"orderby filter is used to filter the array to a subset of it based on provided criteria","isTrue":false},
+        {"optionid":3,"questionid":4,"name":"Both","isTrue":false},
+        {"optionid":4,"questionid":4,"name":"No","isTrue":false}
+      ],
+      "answerid":1,
+      "isAnswer":false
+    },
+    {
+      "id":5,
+      "question":"Model available in $rootScope can be overridden by its all child scopes ?",
+      "option":[
+        {"optionid":1,"questionid":5,"name":"true","isTrue":true},
+        {"optionid":2,"questionid":5,"name":"false","isTrue":false},
+        {"optionid":3,"questionid":5,"name":"Both","isTrue":false}
+      ],
+      "answerid":1,
+      "isAnswer":false
+    },
+    {
+      "id":6,
+      "question":"Which components can be injected as a dependency in AngularJS ?",
+      "option":[
+        {"optionid":1,"questionid":6,"name":"Application Module","isTrue":true},
+        {"optionid":2,"questionid":6,"name":"constant","isTrue":false},
+        {"optionid":3,"questionid":6,"name":"value","isTrue":false},
+        {"optionid":4,"questionid":6,"name":"Factory","isTrue":false}
+      ],
+      "answerid":1,
+      "isAnswer":false
+    },
+    {
+      "id":7,
+      "question":"Services are singleton objects which are instantiated only once in app. ?",
+      "option":[
+        {"optionid":1,"questionid":7,"name":"false","isTrue":false},
+        {"optionid":2,"questionid":7,"name":"true","isTrue":true},
+        {"optionid":3,"questionid":7,"name":"both","isTrue":false},
+        {"optionid":4,"questionid":7,"name":"None","isTrue":false}
+      ],
+      "answerid":2,
+      "isAnswer":false
+    },
+    {
+      "id":8,
+      "question":"ng-bind binds the AngularJS Application data to HTML tags.",
+      "option":[
+        {"optionid":1,"questionid":8,"name":"true","isTrue":false},
+        {"optionid":2,"questionid":8,"name":"false","isTrue":true},
+        {"optionid":3,"questionid":8,"name":"both","isTrue":false},
+        {"optionid":4,"questionid":8,"name":"none","isTrue":false}
+      ],
+      "answerid":2,
+      "isAnswer":false
+    },
+    {
+      "id":9,
+      "question":"currency filter is applied to an expression using pipe character ?",
+      "option":[
+        {"optionid":1,"questionid":9,"name":"true","isTrue":true},
+        {"optionid":2,"questionid":9,"name":"false","isTrue":false},
+        {"optionid":3,"questionid":9,"name":"both","isTrue":false},
+        {"optionid":4,"questionid":9,"name":"none","isTrue":false}
+      ],
+      "answerid":1,
+      "isAnswer":false
+    },
+    {
+      "id":10,
+      "question":" In controllers, model data is accessed via $scope object ?",
+      "option":[
+        {"optionid":1,"questionid":10,"name":"true","isTrue":true},
+        {"optionid":2,"questionid":10,"name":"false","isTrue":false},
+        {"optionid":3,"questionid":10,"name":"both","isTrue":false},
+        {"optionid":4,"questionid":10,"name":"none","isTrue":false}
+      ],
+      "answerid":1,
+      "isAnswer":false
+    }
+
+  ]
+}
